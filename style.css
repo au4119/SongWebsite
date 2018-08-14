@@ -1,0 +1,17 @@
+.jumbotron {
+    margin-top: 25px;
+    color: #ffffff;
+    background-color: #000080;
+    text-shadow: black 0.2em 0.2em 0.2em;
+}
+
+.well {
+    background: white;
+    /*background: #fafafa;*/
+}
+
+body {
+    /*background-color: #1591ff;*/
+    background-color: #f4f7f7;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Reviews</title>
+    <script src="AJAXFunctions.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="jumbotron">
+        <h1>Music Reviews</h1>
+    </div>
+    <br/>
+
+
+    <div class="well">
+        <form>
+            <input class="form-control" id="Title" placeholder="Title"><br/>
+            <input class="form-control" id="Artist" placeholder="Artist"><br/>
+            <input class="form-control" id="YouTubeLink" placeholder="YouTube Link"><br/>
+            <h3><a href="#" onclick="addSong();return false;">
+                <span class="label label-primary">Add Song</span>
+            </a></h3>
+        </form>
+    </div>
+
+
+    <br/><br/>
+
+
+    <div class="well">
+        <h3><a href="#" onclick="getAllSongs(); return false;"><span
+                class="label label-primary">Refresh Song List</span></a></h3>
+        <br/>
+
+        <!-- Empty div that will be populated with all the songs and reviews -->
+        <div id="allSongs"></div>
+    </div>
+
+
+    <br/><br/>
+
+
+</div>
+
+</body>
+</html>
+
